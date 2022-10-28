@@ -34,11 +34,11 @@ ambientLight.position.set(1, -1, 1);
 scene.add(ambientLight);
 
 // add directional light
-const directionalLight = new THREE.DirectionalLight(0xee00ff, 0.5);
+const directionalLight = new THREE.DirectionalLight(0xee00ff, 0.6);
 directionalLight.position.set(0, -10, -100);
 scene.add(directionalLight);
 
-const directionalLight2 = new THREE.DirectionalLight(0xee00ff, 0.5);
+const directionalLight2 = new THREE.DirectionalLight(0xee00ff, 0.6);
 directionalLight2.position.set(0, 10, 100);
 scene.add(directionalLight2);
 

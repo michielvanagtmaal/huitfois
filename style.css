@@ -16,8 +16,19 @@ body {
   color: white;
   right: 0;
   bottom: 0;
-  margin-right: 60px;
+  margin-right: 30px;
   margin-bottom: 30px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Karla', sans-serif;
+
 
 }
+
+.socials {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+
