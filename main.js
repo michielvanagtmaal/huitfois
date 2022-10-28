@@ -29,26 +29,26 @@ controls.autoRotate = true;
 // add ambient light
 
 
-const ambientLight = new THREE.AmbientLight(0x11ad3b, 1);
+const ambientLight = new THREE.AmbientLight(0xee00ff, 1);
 ambientLight.position.set(1, -1, 1);
 scene.add(ambientLight);
 
 // add directional light
-const directionalLight = new THREE.DirectionalLight(0x11ad3b, 0.5);
-directionalLight.position.set(0, -10, -50);
+const directionalLight = new THREE.DirectionalLight(0xee00ff, 0.5);
+directionalLight.position.set(0, -10, -100);
 scene.add(directionalLight);
 
-const directionalLight2 = new THREE.DirectionalLight(0x11ad3b, 0.5);
-directionalLight2.position.set(0, 10, 50);
+const directionalLight2 = new THREE.DirectionalLight(0xee00ff, 0.5);
+directionalLight2.position.set(0, 10, 100);
 scene.add(directionalLight2);
 
 
 const loader = new GLTFLoader();
 
 
-loader.load("/assets/huitfois.glb", (gltf) => {
+loader.load("/assets/huitfois2.glb", (gltf) => {
   const huitfois = gltf.scene;
-  huitfois.scale.set(2, 2, 2);
+  huitfois.scale.set(1, 1, 1);
   scene.add(huitfois);
 });
 
