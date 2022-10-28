@@ -1,8 +1,11 @@
-import * as THREE from "https://threejsfundamentals.org/threejs/resources/threejs/r122/build/three.module.js";
-import { OrbitControls } from "https://threejsfundamentals.org/threejs/resources/threejs/r122/examples/jsm/controls/OrbitControls.js";
-import { GLTFLoader } from "https://threejsfundamentals.org/threejs/resources/threejs/r122/examples/jsm/loaders/GLTFLoader.js";
-
-import "./style.css";
+import './style.css'
+//import three
+import * as THREE from 'three';
+//import orbit controls
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+import { Loader, Material } from 'three';
+// import gltf loader
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
   75,
