@@ -5,3 +5,19 @@ body {
     overflow-y: hidden;
   margin: 0;
 }
+
+.app {
+  position: absolute;
+}
+
+.front {
+
+  position: absolute;
+  color: white;
+  right: 0;
+  bottom: 0;
+  margin-right: 60px;
+  margin-bottom: 30px;
+  font-family: 'Rubik', sans-serif;
+
+}
